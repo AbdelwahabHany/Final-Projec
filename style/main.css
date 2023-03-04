@@ -1,0 +1,710 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration:none
+}
+body{
+    padding: 0px;
+    margin: 0px;    
+}
+@font-face {
+    font-family: "AlegreyaSans";
+    src: url(./AlegreyaSC-Regular.ttf);
+}
+@font-face {
+    font-family: "AlegreyaSC-Regular";
+    src: url(./AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: "DancingScript";
+    src: url(./DancingScript-VariableFont_wght.ttf);
+}
+header{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-size: contain;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 14px 170px;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 7px;
+    
+}
+.home-nav{
+    border-top: 2px solid #e2785d;
+    
+}
+.nav-bar a{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 100;
+    list-style: none;
+    color: #ffffff;
+    font-family: "AlegreyaSans";
+
+    
+}
+.logo{
+    height: 42px;
+    margin-top: 1px;
+    margin-left: 110px;
+}
+.nav-bar a:hover{
+    color: #e2785d    ;
+    transition: 0.4s; 
+    cursor: pointer;
+}
+.home{
+    background-image: url(../image/shutterstock_277750193.jpeg);
+    background-size: cover;
+    padding: 247px 22%;
+    margin-top: -116px;
+    border-radius: 10px;
+
+}
+.home-img{
+    position: absolute;
+    top: 26%;
+    left: 38%;
+
+}
+.home-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.home-text h1{
+    font-family: "AlegreyaSans";
+    color: #ffffff;
+    font-size: 61px;
+    line-height: 88px;
+    font-weight: 400;
+    margin-right: 12px;
+}
+.home-text h2{
+    font-family: "DancingScript";
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 34px;
+    margin-top: -14px;
+
+}
+.home-buttons{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+}
+.lm{
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    border-radius: 4px;
+    margin: 0px 0px;
+    background-color: #c1ab84;
+    font-family: "AlegreyaSC-Regular";
+    color: #ffffff;
+    font-weight: 500;
+}
+.lm:hover{
+    background-color: #ffffff  ;
+    transition: 0.4s;
+    color: black;
+    cursor: pointer;
+}
+.bv{
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    border-radius: 4px;
+    margin: 0px 7px;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-family: "AlegreyaSC-Regular";
+}
+.bv:hover{
+    background-color: rgb(180, 180, 180)  ;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.about-img{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+
+}
+#navbar3 {
+    position: fixed;
+    top: -50px;
+    left: 58%;
+    width: -3%;
+    display: block;
+    margin: 20px 26px;
+    transition: top .5s;
+
+}  
+  #navbar3 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid #e2785d;
+    font-family: "AlegreyaSC-Regular";
+
+  }
+  
+  #navbar3 a:hover {
+    color: #e2785d ;
+    transition: 0.5ms;
+  }
+  #navbar3:hover {
+ 
+    color: #e2785d ;
+    
+  }
+  .abou-img{
+    position: relative;
+    top: 184px;
+    left: -22%;
+        display: block;
+    text-align: center;
+  }
+  .abou-text{
+    text-align: right;
+  }
+  .abou-text h1{
+    font-family: "AlegreyaSC-Regular";
+    font-size: 30px;
+    line-height: 88px;
+    margin-top: -348px;
+    font-weight: 100;
+    margin-right: 446px;
+    letter-spacing: 3.09px;
+
+  }
+  .abou-text h2{
+    font-family: "DancingScript";
+    Color:#c1ab84;
+    font-size: 30px;
+    line-height: 88px;
+    margin-top: -49px;
+    font-weight: 100;
+    margin-right: 498px;
+  }
+  .abou-text h3 {
+    font-family: "AlegreyaSC-Regular";
+    font-size: 16px;
+    margin-top: -6px;
+    font-weight: 100;
+    margin-right: 315px;
+    Color: #686868;
+    line-height: 2;
+}
+.abou-text1{
+    margin-right: 32px;
+}
+.icons{
+    margin-top: 10px;
+    margin-right: 495px;
+    float: right;
+    position: relative;
+    left: -1%;
+        top: 0%;
+}
+.icon-list-text{
+    float: right;
+    position: relative;
+    left: 2%;
+    margin-top: 17px;
+    font-family: "AlegreyaSC-Regular";
+    color: #686868;
+    font-weight: 100;
+    font-size: 18px;
+}
+.like {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 687px;
+    margin-top: 400px;
+}
+.our-dishes {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    height: 1360px;
+    margin-top: -2px;
+}
+.review-txt h1{
+    margin-top: -392px;
+        margin-left: 251px;
+        font-size: 33px;
+    font-family: "AlegreyaSans";
+    font-weight: 100;
+}
+.review-txt h2{
+    margin-left: 257px;
+    font-size: 27px;
+    font-family: "DancingScript";
+    font-weight: 100;
+    Color: #c1ab84;
+    margin-top: 10px;
+}
+.review-txt p{
+    margin-left: 257px;
+    font-size: 17px;
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    Color: gray;
+    margin-top: 10px;
+}
+.our-dishes-meals{
+    color: #686868;
+}
+.icon-text{
+margin-top: -192px;
+    margin-left: 42px;
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    Color: gray;
+    font-size: 11px;
+}
+.our-dishes-head h1 {
+    text-align: center;
+    padding: 74px;
+    font-family: "AlegreyaSC-Regular";
+    font-size: 39px;
+    font-weight: 100;
+    color: #253048    ;
+
+}
+.our-dishes-head h2 {
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    font-size: 27px;
+    font-weight: 100;
+    font-family: "DancingScript";
+    Color:#c1ab84;
+    margin-top: -61px;
+    letter-spacing: 2px;
+
+}
+.meals-line-one{
+    margin-left: 73px;
+    margin-top: 56px;
+    display: flex;
+}
+.meals-line-two{
+    margin-left: 73px;
+    margin-top: 70px;
+    display: flex;
+}
+.delicious-salad h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 13px;
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+}
+.delicious-salad h2 {
+    font-size: 19px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 13px;
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+}
+.Incredible-Steak h1{
+    font-weight: 100;
+    font-size: 26px;
+    margin-top: 13px;
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.Incredible-Steak h2{
+    font-weight: 100;
+    font-size: 19px;
+        margin-top: 13px;
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.Fantastic-Desserts h1{
+    font-weight: 100;
+    font-size: 26px;
+    margin-top: 13px;
+    margin-top: 13px;
+
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.Fantastic-Desserts h2{
+    font-weight: 100;
+    font-size: 19px;
+        margin-top: 13px;
+    margin-top: 13px;
+
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-one h1{
+    font-weight: 100;
+    font-size: 26px;
+    margin-top: 13px;
+
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-one h2{
+    font-weight: 100;
+    font-size: 19px;
+        margin-top: 13px;
+
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-two h1{
+    margin-top: 13px;
+
+    font-weight: 100;
+    font-size: 26px;
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-two h2{
+    margin-top: 13px;
+
+    font-weight: 100;
+    font-size: 19px;
+        text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-three h1{
+    margin-top: 13px;
+
+    font-weight: 100;
+    font-size: 26px;
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.meal-three h2{
+    margin-top: 13px;
+
+    font-weight: 100;
+    font-size: 19px;
+        text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-right: 80px;
+}
+.menue-btn{
+    position: absolute;
+    left: 46%;
+    margin-top: 60px;
+
+}
+.btn{
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    border-radius: 4px;
+    background-color: #c1ab84;
+    font-family: "AlegreyaSC-Regular";
+    color: #ffffff;
+    
+    font-weight: 500;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#686868;
+    color: #f8f8f8;
+    transition: 0.5ms;
+}
+
+.our-dishes img {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .our-dishes img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  transition: 400ms linear;
+  }
+.info{
+    background-image: url(../image/shutterstock_277750193\ \(1\).jpeg);
+    width: 1519px;
+    height: 589px;
+    outline: 296px solid rgb(41 41 41 / 26%) !important;
+    outline-offset: -295px;
+    overflow: hidden;
+    
+}
+.info-text{
+   text-align: center;
+    margin-right: 31px;
+    font-family: "AlegreyaSC-Regular";
+    color: #ffffff;
+    margin-top: 29px;
+    border-radius: 15px;
+    
+}
+.info h1 {
+    font-weight: 100;
+    font-size: 46px;
+
+
+}
+.info q{
+    font-weight: 100;
+    font-size: 22px;
+}
+.info-user{
+    font-size: 24px;
+    margin-top: 53px;
+}
+.info-user h6{
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 14px;
+}
+.user-butn{
+    margin-top: 21px;
+    color: white;
+
+}
+.pre{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(41 41 41 / 0% );
+    color: white;
+
+}
+.pre:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.8ms;
+    color:black;
+
+}
+.next{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(41 41 41 / 0% );
+    color: white;
+
+
+}
+.next:hover{
+    color:black;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.8ms;
+
+}
+.contact{
+    background-color: #ffffff;
+    height: auto;
+}
+.maps iframe{
+    margin-top: 85px;
+    float: right;
+    width: 36%;
+    margin-right: 65px;
+    border-radius: 17px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.contact-txt h1{
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    margin-left: 11%;
+    font-size: 61px;
+    color: #253048    ;
+    margin-top: 6%;
+}
+.contact-txt h3{
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    margin-left: 11%;
+    margin-top: 2%;
+    font-size: 16px;
+    Color: #686868;
+
+
+}
+.contact-details {
+    font-family: "AlegreyaSC-Regular";
+    margin-left: 170px;
+    color: #686868;
+    margin-top: 63px;
+
+
+}
+.contact-details h1 {
+    font-size: 19px;
+    font-weight: 100;
+}
+.contact-details h2 {
+    font-size: 22px;
+    /* position: relative; */
+    left: -1%;
+    font-weight: 100;
+    
+
+}
+.details {
+    margin-left: 68px;
+    margin-top: -289px;
+    font-size: 16px;
+}
+.end{
+    background-color: #403d38;
+    height: auto;
+    width: 100%;
+    margin-top: 190px;
+}
+.widget-title{
+    font-family: "AlegreyaSans";
+    font-weight: 100;
+    color: white;
+    margin-left: 55px;
+        font-size: 20px;
+    margin-bottom: -24px;
+
+}
+.textwidget{
+    font-weight: 100;
+    color: #969696;
+    font-family: "AlegreyaSC-Regular";
+    margin-left: 54px;
+    margin-top: 40px;
+    margin-bottom: -29px;
+}
+
+
+
+.end-one{
+    background-color: #353330;
+    height: auto;
+    margin-left: -109px;
+    margin-top: 409px;
+}
+.end-one h1{
+    color: #777777;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    font-family: "AlegreyaSC-Regular";
+    margin-left: 65px;
+    margin-top: -6px;
+
+}
+.social{
+    position: relative;
+    text-align: center;
+    margin-left: 81px;
+}
+.facebook{
+    margin-top: 21px;
+ 
+    margin-right: 216px;
+}
+.instgram{
+    margin-top: -29px;
+    margin-right: 83px;
+
+}
+.thumblr{
+    margin-top: -35px;
+    margin-left: 52px;
+
+}
+.twitter{
+    margin-top: -33px;
+    margin-left: 178px;
+
+}
+.facebook img:hover{
+    background-color: tan;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.instgram img:hover{
+    background-color: tan;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.thumblr img:hover{
+    background-color: tan;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.twitter img:hover{
+    background-color: tan;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.center-details h1 {
+    font-family: "AlegreyaSans";
+    font-weight: 100;
+    color: white;
+    margin-left: -571px;    
+    font-size: 20px;
+    text-align: center;
+    margin-top: -300px;
+}
+.center-details a{
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    margin-left: 422px;
+    font-size: 18px;
+    color: #777777;
+    margin-top: -256px;
+    display: inline-block;
+    border-bottom: 2px solid #777777;
+    width: 336px;
+}
+.left-details-one h1{
+    font-family: "AlegreyaSans";
+    font-weight: 100;
+    color: white;
+    margin-right: 591px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: -283px;
+
+}
+.left-details-one a{
+    font-family: "AlegreyaSC-Regular";
+    font-weight: 100;
+    margin-left: 796px;
+    font-size: 18px;
+    color: #777777;
+    margin-top: -256px;
+    display: inline-block;
+    border-bottom: 2px solid #777777;
+    width: 336px;
+
+}
+.left-details-two h1{
+
+    font-family: "AlegreyaSans";
+    font-weight: 100;
+    color: white;
+    margin-right: 217px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: -398px;
+}
